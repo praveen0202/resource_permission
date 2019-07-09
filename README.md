@@ -14,7 +14,8 @@ there are many features in system and we are going to add more features, it requ
 - Manager by default Readable
 - Staff by default has no permissions
 - can create new roles in settings page.
-- can choose Creatable/Updatable/Readable/Destroyable permissions to assign to roles in settings page.
+- can choose Creatable/Updatable/Readable/Destroyable permissions for any resources (it can be 1 attribute of the models or it can be freely defined pages) to assign to roles in settings page.
+   For example: I want to limit role `Manager` to only `readable` to EmailPage, so I will go to setting page and remove other permissions for EmailPage from that role.
 - Not only be able to assign permissions to features but also to each data field, for example Manager can only Readable Employee's email.
 
 ### requirements
